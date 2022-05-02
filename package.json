@@ -1,6 +1,7 @@
 {
   "name": "lostarktypingpractice",
   "version": "0.1.0",
+  "homepage": "https://marsunpaisti.github.io/lostarktypingpractice/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",

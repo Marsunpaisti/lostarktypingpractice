@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'LabradorA-Medium';
+  src: local('LabradorA-Medium'),
+    url(./fonts/LabradorA-Medium.ttf) format('truetype');
+}
+
+* {
+  font-family: 'LabradorA-Medium';
+}
+
 .hidden {
   display: none;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  min-width: 100%;
 }
