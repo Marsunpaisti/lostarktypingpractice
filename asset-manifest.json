@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/https//marsunpaisti.github.io/lostarktypingpractice/static/css/main.571d386e.css",
-    "main.js": "/https//marsunpaisti.github.io/lostarktypingpractice/static/js/main.329971ee.js",
+    "main.js": "/https//marsunpaisti.github.io/lostarktypingpractice/static/js/main.335d2dfa.js",
     "static/media/vykas.jpg": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/vykas.9295b79f6630e45bcecd.jpg",
     "static/media/LabradorA-Medium.ttf": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/LabradorA-Medium.b351ef7f0855a251c46f.ttf",
-    "static/media/African3.mp3": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/African3.f2019d97970dd34f88cb.mp3",
+    "static/media/winsound.mp3": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/winsound.8e00181a3922374fee71.mp3",
+    "static/media/keysound.mp3": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/keysound.f2019d97970dd34f88cb.mp3",
+    "static/media/failsound.mp3": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/failsound.3198670a11bb9585ad9a.mp3",
     "index.html": "/https//marsunpaisti.github.io/lostarktypingpractice/index.html",
     "main.571d386e.css.map": "/https//marsunpaisti.github.io/lostarktypingpractice/static/css/main.571d386e.css.map",
-    "main.329971ee.js.map": "/https//marsunpaisti.github.io/lostarktypingpractice/static/js/main.329971ee.js.map"
+    "main.335d2dfa.js.map": "/https//marsunpaisti.github.io/lostarktypingpractice/static/js/main.335d2dfa.js.map"
   },
   "entrypoints": [
     "static/css/main.571d386e.css",
-    "static/js/main.329971ee.js"
+    "static/js/main.335d2dfa.js"
   ]
 }
