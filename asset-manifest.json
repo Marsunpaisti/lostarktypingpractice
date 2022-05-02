@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/https//marsunpaisti.github.io/lostarktypingpractice/static/css/main.571d386e.css",
-    "main.js": "/https//marsunpaisti.github.io/lostarktypingpractice/static/js/main.335d2dfa.js",
-    "static/media/vykas.jpg": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/vykas.9295b79f6630e45bcecd.jpg",
-    "static/media/LabradorA-Medium.ttf": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/LabradorA-Medium.b351ef7f0855a251c46f.ttf",
-    "static/media/winsound.mp3": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/winsound.8e00181a3922374fee71.mp3",
-    "static/media/keysound.mp3": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/keysound.f2019d97970dd34f88cb.mp3",
-    "static/media/failsound.mp3": "/https//marsunpaisti.github.io/lostarktypingpractice/static/media/failsound.3198670a11bb9585ad9a.mp3",
-    "index.html": "/https//marsunpaisti.github.io/lostarktypingpractice/index.html",
-    "main.571d386e.css.map": "/https//marsunpaisti.github.io/lostarktypingpractice/static/css/main.571d386e.css.map",
-    "main.335d2dfa.js.map": "/https//marsunpaisti.github.io/lostarktypingpractice/static/js/main.335d2dfa.js.map"
+    "main.css": "/LostArkLogVisualizer/static/css/main.170a0ef6.css",
+    "main.js": "/LostArkLogVisualizer/static/js/main.21145606.js",
+    "static/media/vykas.jpg": "/LostArkLogVisualizer/static/media/vykas.9295b79f6630e45bcecd.jpg",
+    "static/media/LabradorA-Medium.ttf": "/LostArkLogVisualizer/static/media/LabradorA-Medium.b351ef7f0855a251c46f.ttf",
+    "static/media/winsound.mp3": "/LostArkLogVisualizer/static/media/winsound.8e00181a3922374fee71.mp3",
+    "static/media/keysound.mp3": "/LostArkLogVisualizer/static/media/keysound.f2019d97970dd34f88cb.mp3",
+    "static/media/failsound.mp3": "/LostArkLogVisualizer/static/media/failsound.3198670a11bb9585ad9a.mp3",
+    "index.html": "/LostArkLogVisualizer/index.html",
+    "main.170a0ef6.css.map": "/LostArkLogVisualizer/static/css/main.170a0ef6.css.map",
+    "main.21145606.js.map": "/LostArkLogVisualizer/static/js/main.21145606.js.map"
   },
   "entrypoints": [
-    "static/css/main.571d386e.css",
-    "static/js/main.335d2dfa.js"
+    "static/css/main.170a0ef6.css",
+    "static/js/main.21145606.js"
   ]
 }
