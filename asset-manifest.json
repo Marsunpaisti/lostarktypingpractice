@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/LostArkLogVisualizer/static/css/main.170a0ef6.css",
-    "main.js": "/LostArkLogVisualizer/static/js/main.21145606.js",
-    "static/media/vykas.jpg": "/LostArkLogVisualizer/static/media/vykas.9295b79f6630e45bcecd.jpg",
-    "static/media/LabradorA-Medium.ttf": "/LostArkLogVisualizer/static/media/LabradorA-Medium.b351ef7f0855a251c46f.ttf",
-    "static/media/winsound.mp3": "/LostArkLogVisualizer/static/media/winsound.8e00181a3922374fee71.mp3",
-    "static/media/keysound.mp3": "/LostArkLogVisualizer/static/media/keysound.f2019d97970dd34f88cb.mp3",
-    "static/media/failsound.mp3": "/LostArkLogVisualizer/static/media/failsound.3198670a11bb9585ad9a.mp3",
-    "index.html": "/LostArkLogVisualizer/index.html",
-    "main.170a0ef6.css.map": "/LostArkLogVisualizer/static/css/main.170a0ef6.css.map",
-    "main.21145606.js.map": "/LostArkLogVisualizer/static/js/main.21145606.js.map"
+    "main.css": "/lostarktypingpractice/static/css/main.e01def68.css",
+    "main.js": "/lostarktypingpractice/static/js/main.85fa3e4f.js",
+    "static/media/vykas.jpg": "/lostarktypingpractice/static/media/vykas.9295b79f6630e45bcecd.jpg",
+    "static/media/LabradorA-Medium.ttf": "/lostarktypingpractice/static/media/LabradorA-Medium.b351ef7f0855a251c46f.ttf",
+    "static/media/winsound.mp3": "/lostarktypingpractice/static/media/winsound.8e00181a3922374fee71.mp3",
+    "static/media/keysound.mp3": "/lostarktypingpractice/static/media/keysound.f2019d97970dd34f88cb.mp3",
+    "static/media/failsound.mp3": "/lostarktypingpractice/static/media/failsound.3198670a11bb9585ad9a.mp3",
+    "index.html": "/lostarktypingpractice/index.html",
+    "main.e01def68.css.map": "/lostarktypingpractice/static/css/main.e01def68.css.map",
+    "main.85fa3e4f.js.map": "/lostarktypingpractice/static/js/main.85fa3e4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.170a0ef6.css",
-    "static/js/main.21145606.js"
+    "static/css/main.e01def68.css",
+    "static/js/main.85fa3e4f.js"
   ]
 }
