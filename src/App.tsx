@@ -4,6 +4,7 @@ import {
   Button,
   Container,
   Slide,
+  TextField,
   Toolbar,
   Typography,
 } from '@mui/material';
@@ -17,6 +18,7 @@ import seto from './assets/seto.jpg';
 export const App = () => {
   const [showAppBar, setShowAppBar] = useState(true);
   const [easyMode, setEasyMode] = useState(false);
+  const [allowedKeys, setAllowedKeys] = useState('qweasd');
 
   const handleScroll = useCallback(() => {
     if (window.scrollY >= 25) {
@@ -63,6 +65,29 @@ export const App = () => {
             >
               {easyMode ? 'Toggle hard mode' : 'Toggle easy mode'}
             </Button>
+            <TextField
+              label="Allowed keys pool"
+              InputLabelProps={{
+                sx: {
+                  color: 'white',
+                  '&.Mui-focused': {
+                    color: 'white',
+                  },
+                },
+              }}
+              inputProps={{
+                sx: {
+                  color: 'white',
+                  background: 'rgba(255,255,255,0.5)',
+                  padding: '5px',
+                },
+              }}
+              type="text"
+              value={allowedKeys}
+              onChange={(e) => {
+                setAllowedKeys(e.target.value);
+              }}
+            />
           </Toolbar>
         </AppBar>
       </Slide>
@@ -83,7 +108,7 @@ export const App = () => {
           alignItems: 'center',
         }}
       >
-        <TypingKeyboard />
+        <TypingKeyboard allowedKeys={allowedKeys} />
         {!easyMode && (
           <Box position="absolute" bottom="5%" right="6%">
             <Typography variant="h6" color="white">

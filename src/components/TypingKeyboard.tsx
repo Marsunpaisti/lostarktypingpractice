@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import keySound from '../assets/keysound.mp3';
 import failSound from '../assets/failsound.mp3';
 import winSound from '../assets/winsound.mp3';
@@ -9,14 +9,14 @@ import classNames from 'classnames';
 
 const classes = classNames.bind(css);
 
-const allowedKeys = 'qweasd';
-
 export interface Score {
   time: number;
   success: boolean;
 }
 
-export const TypingKeyboard = () => {
+export const TypingKeyboard: React.FC<{ allowedKeys: string }> = ({
+  allowedKeys,
+}) => {
   const [currentKeyIndex, setCurrentKeyIndex] = useState<number>(0);
   const [showSuccessText, setShowSuccessText] = useState(false);
   const [keys, setKeys] = useState<string>('');
@@ -34,11 +34,8 @@ export const TypingKeyboard = () => {
     }
   }, [scores]);
 
-  useEffect(() => {
-    resetGame();
-  }, []);
-
-  const resetGame = () => {
+  const resetGame = useCallback(() => {
+    if (!allowedKeys || allowedKeys.length === 0) return;
     let newKeys = '';
     for (let i = 0; i < 7; i++) {
       newKeys += allowedKeys[Math.floor(Math.random() * allowedKeys.length)];
@@ -47,13 +44,18 @@ export const TypingKeyboard = () => {
     setKeys(newKeys);
     setStartedTime(Date.now());
     setFailedKeys([]);
-  };
+  }, [setCurrentKeyIndex, setKeys, setStartedTime, setFailedKeys, allowedKeys]);
+
+  useEffect(() => {
+    resetGame();
+  }, [allowedKeys, resetGame]);
 
   useEffect(() => {
     const handleKeyTyped = (e: KeyboardEvent) => {
       if (!allowedKeys.split('').includes(e.key.toLowerCase())) {
         return;
       }
+      if ((e.target as any)?.type === 'text') return;
       if (currentKeyIndex > keys.length - 1) return;
       if (failedKeys.length > 0) return;
       if (e.key.toLowerCase() === keys[currentKeyIndex].toLowerCase()) {
@@ -107,7 +109,7 @@ export const TypingKeyboard = () => {
 
     window.addEventListener('keydown', handleKeyTyped);
     return () => window.removeEventListener('keydown', handleKeyTyped);
-  }, [currentKeyIndex, failedKeys, keys, startedTime]);
+  }, [currentKeyIndex, failedKeys, keys, startedTime, allowedKeys, resetGame]);
 
   return (
     <>
