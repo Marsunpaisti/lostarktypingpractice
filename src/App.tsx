@@ -71,8 +71,8 @@ export const App = () => {
         component="main"
         sx={{
           backgroundImage: easyMode ? `url(${seto})` : `url(${vykas})`,
-          backgroundPosition: easyMode ? 'center 0px' : 'center -200px',
-          backgroundSize: 'cover',
+          backgroundPosition: easyMode ? 'center 75%' : 'center 35%',
+          backgroundSize: easyMode ? '120%' : 'cover',
           pt: 32,
           pb: 2,
           height: '100%',
