@@ -9,7 +9,7 @@ import classNames from 'classnames';
 
 const classes = classNames.bind(css);
 
-const allowedKeys = 'qwerasdf';
+const allowedKeys = 'qweasd';
 
 export interface Score {
   time: number;
