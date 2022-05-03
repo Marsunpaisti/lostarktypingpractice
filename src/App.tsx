@@ -38,6 +38,7 @@ export const App = () => {
       <Slide appear={false} direction="down" in={showAppBar}>
         <AppBar
           sx={{
+            background: 'rgba(0,0,0,0.5)',
             position: 'fixed',
             borderBottom: (t) => `1px solid ${t.palette.divider}`,
           }}
@@ -69,9 +70,9 @@ export const App = () => {
         component="main"
         sx={{
           backgroundImage: easyMode ? `url(${seto})` : `url(${vykas})`,
-          backgroundPosition: easyMode ? 'center 50px' : 'center -200px',
+          backgroundPosition: easyMode ? 'center 0px' : 'center -200px',
           backgroundSize: 'cover',
-          pt: 24,
+          pt: 32,
           pb: 2,
           height: '100%',
           minHeight: '100vh',
