@@ -1,5 +1,6 @@
 import {
   AppBar,
+  Box,
   Button,
   Container,
   Slide,
@@ -83,6 +84,22 @@ export const App = () => {
         }}
       >
         <TypingKeyboard />
+        {!easyMode && (
+          <Box position="absolute" bottom="5%" right="6%">
+            <Typography variant="h6" color="white">
+              Vykas Fanart by
+              <br />
+              <a
+                style={{ color: 'rgba(100, 100, 250, 1)' }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.pixiv.net/en/users/14279898"
+              >
+                Gg Amang | 까망베르까망
+              </a>
+            </Typography>
+          </Box>
+        )}
       </Container>
     </BrowserRouter>
   );
