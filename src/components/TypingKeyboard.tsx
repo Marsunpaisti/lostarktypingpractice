@@ -217,8 +217,10 @@ export const TypingKeyboard = () => {
               `Average time: ${(
                 scores
                   .filter((s) => s.success)
-                  .reduce((acc, cur) => cur.time + acc / scores.length, 0) /
-                1000
+                  .reduce(
+                    (acc, cur, ix, arr) => cur.time / arr.length + acc,
+                    0,
+                  ) / 1000
               ).toFixed(2)}s`}
           </Typography>
           <Typography variant="h6">
